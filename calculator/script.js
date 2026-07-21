@@ -19,7 +19,7 @@ buttons.forEach(function (button) {
             firstNumber = "";
             secondNumber = "";
             operator = "";
-            waitingForSecondNumber = false;
+            waitingForSecondnumber = false;
         }
 
         else if (value == "DEL") {
