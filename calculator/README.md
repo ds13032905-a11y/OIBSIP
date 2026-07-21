@@ -32,7 +32,7 @@ WebDev-L2-Calculator/
 
 ## Live Demo
 
-https://ds13032905-a11y.github.io/OIBSIP/
+https://ds13032905-a11y.github.io/OIBSIP/calculator/
 
 
 ## Author
