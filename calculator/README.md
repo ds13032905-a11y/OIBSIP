@@ -8,11 +8,12 @@ A simple and responsive Calculator developed using HTML, CSS, and JavaScript. It
 - Subtraction
 - Multiplication
 - Division
-- Percentage
-- Decimal calculations
-- Clear (C) button
-- Delete (DEL) button
-- Responsive design
+- Percentage Calculation
+- Decimal Support
+- Clear (C) Button
+- Delete (DEL) Button
+- Error Handling
+- Invalid Input Handling
 
 ## Technologies Used
 - HTML5
@@ -20,15 +21,19 @@ A simple and responsive Calculator developed using HTML, CSS, and JavaScript. It
 - JavaScript
 
 ## Project Structure
-calculator/
-├── index.html
-├── style.css
-├── script.js
-├── calculator.png
-└── README.md
+```
+WebDev-L2-Calculator/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+```
+
 
 ## Live Demo
-https://ds13032905-a11y.github.io/OIBSIP/calculator/
 
-## Screenshot
-![Calculator](calculator.png)
+https://ds13032905-a11y.github.io/OIBSIP/
+
+
+## Author
+**Dharshini R**
