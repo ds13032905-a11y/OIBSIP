@@ -27,9 +27,9 @@ WebDevelopment-Level2-Tribute-Page/
 
 
 ## Live Demo
-[
+
 https://ds13032905-a11y.github.io/OIBSIP/WebDevelopment-Level2-Tribute-Page/
-]
+
 ## Author
 
 **Dharshini R**
