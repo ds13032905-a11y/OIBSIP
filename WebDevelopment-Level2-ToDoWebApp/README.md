@@ -26,9 +26,9 @@ This is a simple and responsive To-Do Web App developed using HTML, CSS, and Jav
 - CSS3
 - JavaScript
 - Local Storage
-
+- 
 ## Project Structure
-
+```text
 WebDevelopment-Level2-ToDoWebApp/
 │── index.html
 │── style.css
