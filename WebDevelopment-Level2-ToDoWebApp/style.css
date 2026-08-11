@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px lightgray;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.input input{
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.input input:focus{
+    border-color: blue;
+}
+
+.input button{
+    padding: 12px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input button:hover{
+    background-color: navy;
+}
+
+.task{
+    margin-top: 25px;
+}
+
+h2{
+    color: darkblue;
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+small{
+    display: block;
+    color: gray;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.empty{
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+li button{
+    width: 90px;
+    height: 38px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.complete-btn{
+    background-color: green;
+}
+
+.complete-btn:hover{
+    background-color: darkgreen;
+}
+
+.edit-btn{
+    background-color: orange;
+}
+
+.edit-btn:hover{
+    background-color: darkorange;
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.delete-btn:hover{
+    background-color: darkred;
+}
+
+.edit-input{
+    padding: 7px;
+    font-size: 16px;
+    width: 60%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.edit-input:focus{
+    border-color: blue;
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        padding: 20px 10px;
+    }
+
+    .container{
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .input{
+        flex-direction: column;
+    }
+
+    .input button{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    li button{
+        width: 90px;
+        height: 38px;
+    }
+
+    .edit-input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
