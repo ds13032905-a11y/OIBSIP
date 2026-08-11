@@ -28,13 +28,13 @@ This is a simple and responsive To-Do Web App developed using HTML, CSS, and Jav
 - Local Storage
 - 
 ## Project Structure
-```text
+```
 WebDevelopment-Level2-ToDoWebApp/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-
+```
 ## Live Demo
 
 https://ds13032905-a11y.github.io/OIBSIP/WebDevelopment-Level2-ToDoWebApp/
