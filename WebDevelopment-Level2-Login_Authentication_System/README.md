@@ -33,7 +33,7 @@ This is a simple and secure Login Authentication System developed using HTML, CS
 - SHA-256
 
 ## Project Structure
-
+```
 WebDevelopment-Level2-LoginAuthentication/
 │── index.html
 │── register.html
@@ -45,7 +45,7 @@ WebDevelopment-Level2-LoginAuthentication/
 │── task4-dashboard.png
 │── task4-password-hash.png
 │── README.md
-
+```
 ## Live Demo
 
 https://ds13032905-a11y.github.io/OIBSIP/WebDevelopment-Level2-Login_Authentication_System/
